@@ -37,7 +37,7 @@ public class Main {
     }
 
     public static int[] shiftArr(int[] intArr, int n){
-            int k = n % intArr.length + intArr.length; //взял из объяснения на сл. уроке. У меня только для положительного было.
+            int k = n % intArr.length + intArr.length; //взял из объяснения на след. уроке. У меня только для положительного было.
             for (int i=0; i < k; i++) {
                 int temp = intArr[intArr.length - 1];
                 for (int count = intArr.length -1; count > 0; count--) {
